@@ -1,0 +1,53 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #36454F;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #ff0000;
+}
+
+table, th, td {
+  padding: 15px;
+  border: 1px;
+}
+
+.scrollabletextbox {
+  height:300px;
+  width:900px;
+  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 30;
+  overflow: auto;
+}
+
+.scrollablebox {
+  font-size: 30;
+  overflow: auto;
+}
+
+.center {
+  margin: 3px;
+  position: relative;
+}
+
+#main, #downButton {
+  visibility: hidden;
+}
+
+#store {
+  visibility: hidden;
+}
+
+#back-story {
+  background-color: gray;
+  color: gold  ;
+  font-family: Luminari;
+  font-style: italic;
+  font-weight: 450;
+  font-size: 25px;
+  line-height: 1.5;
+}
