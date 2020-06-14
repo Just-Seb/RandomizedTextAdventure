@@ -1,0 +1,7 @@
+You enter a ____ room with ____ on the walls. The room smells faintly like ____ and feels ____. You notice there is ____ in the room. Exits can be found on the ____ walls.
+            small         vines                                           ale             cold                      a enemy                                     West
+            narrow        roots                                           fish            hot                       no enemy                                    East
+            large         blood                                           goblin          bamp                                                                  North
+            tall          ancient text                                    rot                                                                                   South
+            grand         spiders                                         
+            long          slime

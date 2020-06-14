@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Game</title>
+  </head>
+
+  <body>
+    <h1>
+      Your a Hizard Warry
+      <button onclick="startGame()" id="startButton">Click Me To start</button>
+    </h1>
+
+    <div class="scrollabletextbox" id="text" onfocus="this.value = this.value;">
+      Welcome to The text adventure crawler randomized game!
+    </div>
+
+    <div id="main">
+      <table>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td></td>
+                <td><button class="center" onclick="move('north')">North</button></td>
+                <td></td>
+              </tr>
+              <tr>
+                <br />
+              </tr>
+              <tr>
+                <td><button class="center" onclick="move('west')">West</button></td>
+                <td><button class="center" onclick="user.dealDamage()">Attack!!!</button></td>
+                <td><button class="center" onclick="move('east')">East</button></td>
+              </tr>
+              <tr>
+                <br />
+              </tr>
+              <tr>
+                <td></td>
+                <td><button class="center" onclick="move('south')">South</button></td>
+                <td></td>
+              </tr>
+              <tr id="downButton">
+                <td></td>
+                <div><td><button class="center" onclick="move('down')">Down</button></td></div>
+                <td></td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <div class="scrollablebox" id="stats"></div>
+            <div class="scorllablebox" id="inventory"></div>
+          </td>
+          <td>
+            <div class="scrollablebox" id="enemyStats"></div>
+          </td>
+          <td>
+            <div id="store">
+              <div class="scrollablebox" id="storeSell">
+                store
+              </div>
+              <div class="scrollablebox" id="storeBuy">
+                store
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
