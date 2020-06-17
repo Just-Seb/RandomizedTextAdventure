@@ -17,16 +17,24 @@ table, th, td {
 }
 
 .scrollabletextbox {
+  padding: 10px;
   height:300px;
   width:900px;
   font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
   font-size: 30;
   overflow: auto;
+  background: rgba(211, 211, 211, 0.4);
+  border-radius: 25px;
 }
 
 .scrollablebox {
   font-size: 30;
   overflow: auto;
+}
+
+#main, #text, #home {
+  font-size: 30;
+  color: white;
 }
 
 .center {
